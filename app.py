@@ -4,3 +4,5 @@ def fetch_data(url):
     api_key = "12345-SUPER-SECRET-KEY"
     response = requests.get(f"{url}?key={api_key}")
     return response.json()
+
+# Cambio menor para validar el pipeline DevSecOps en un Pull Request.
